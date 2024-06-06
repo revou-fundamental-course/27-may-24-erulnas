@@ -1,1 +1,130 @@
 /* Ini Css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>section {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url("/assets/frozen-bubble.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(https://media.japanesestation.com/images/750x422/2020/03/Indonesia-Japan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 3px;
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-container {
+    background-image: url("/assets/tokyoGettyImages-1031467664.jpg");
+    height: 258px;
+    border: 1px solid black;
+}
+
+.facility-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.PT {
+    background-image: url(https://t4.ftcdn.net/jpg/07/43/42/37/360_F_743423731_bspkXBmLDrNxnlGDBSTSp4B6xaF4ZD7p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+    border: 1px solid black; 
+    border-radius: 50%
+}
+
+.SF {
+    background-image: url(https://img.freepik.com/free-vector/scene-with-trees-around-football-field_1308-37115.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+    border: 1px solid black; 
+    border-radius: 50%
+}
+
+.CR {
+    background-image: 
+    url(https://media.istockphoto.com/id/1404046685/vector/classroom-day-2d-anime-background-illustration.jpg?s=612x612&w=0&k=20&c=m4fUlX2J1ZHUuPhumv3YVQWPEDX-Yx9-uK3kMXXwi2Q=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+    border: 1px solid black; 
+    border-radius: 50%
+}
+
+.message-us-section {
+    display: flex;
+}
+
+form {
+    min-width: max-content;
+}
+
+.form-table {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-align: -webkit-center;
+}
+  
+  .input-text,
+  .input-date {
+    margin-left: 0px;
+}
+  
+  .label {
+    display: flex;
+    width: 100px;
+}
+
+  .button {
+    width: 95%;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.result-container {
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.form-result {
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: right;
+    padding-right: 0px; 
+}

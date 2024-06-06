@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herul Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
+    <nav>
+        <div class="logo-icon"></div>
+
+        <section>
+            <a class="nav-item" href="home" style="align-content: center"><b>Home</b></a>
+            <a class="nav-item" href="facilities" style="align-content: center"><b>Our Facilities</b></a>
+            <a class="nav-item" href="message-us" style="align-content: center"><b>Message Us</b></a>
+        </section>
+    </nav>
+
+    <hr color="black">
+
+    <section class="section-container">
+        <!-- Home -->
+        <section id="home">
+            <header>
+                <h1>Hi Herul, welcome to website</h1>
+            </header>
+
+            <article>
+                <p>Ini adalah latihan website latihan pertama</p>
+
+                <div class="banner-container"></div>
+            </article>
+        </section>
+
+        <hr color="black">
+
+        <!-- Our Facilities -->
+        <section id="facilities">
+            <header>
+                <h1>Our Facilities</h1>
+            </header>
+
+            <article class="facility-list">
+                <div style="text-align: -webkit-center">
+                    <div class="PT"></div>
+                    <h5>Professional Teacher</h5>
+                </div>
+
+                <div>
+                    <div class="SF"></div>
+                    <h5>Sport Field</h5>
+                </div>
+
+                <div>
+                    <div class="CR"></div>
+                    <h5>Classroom</h5>
+                </div>
+            </article>
+        </section>
+
+        <hr color="black">
+
+        <!-- Message Us -->
+        <section id="message-us">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+
+            <section class="message-us-section">
+                <!-- Form -->
+                <section>
+                    <form>
+                      <table>
+                        <tr class="form-table">
+                          <td class="label">Nama</td>
+                          <td>:</td>
+                          <td>
+                            <input 
+                              type="text"
+                              class="input-text"
+                              name="nama"
+                              id="nama"
+                              placeholder="Ketik namamu disini"
+                            />
+                          </td>
+                        </tr>
+              
+                        <tr class="form-table">
+                          <td class="label">Tanggal Lahir</td>
+                          <td>:</td>
+                          <td>
+                            <input
+                              type="date"
+                              class="input-date"
+                              name="tgl_lahir"
+                              id="tgl_lahir"
+                            />
+                          </td>
+                        </tr>
+              
+                        <tr class="form-table">
+                          <td class="label">Jenis kelamin</td>
+                          <td>:</td>
+                          <td>
+                            <input
+                              type="radio"
+                              class="input-radio"
+                              id="laki-laki"
+                              name="jenis_kelamin"
+                              value="Laki-Laki"
+                            />
+                            <label for="laki-laki">Laki-Laki</label>
+                            <input
+                              type="radio"
+                              class="input-radio"
+                              id="perempuan"
+                              name="jenis_kelamin"
+                              value="Perempuan"
+                            />
+                            <label for="perempuan">Perempuan</label>
+                          </td>
+                        </tr>
+              
+                        <tr class="form-table">
+                          <td class="label">Pesan</td>
+                          <td>:</td>
+                          <td>
+                            <textarea
+                              name="message"
+                              class="input-text"
+                              id="message"
+                              placeholder="Tulis pesanmu disini"
+                              rows="5"
+                            ></textarea>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <button type="button" class="button" onclick="formValidation"()>submit</button>
+                          </td>
+                        </tr>
+                      </table>
+                    </form>
+                  </section>
+
+                <!-- Result -->
+                <section class="result-container">
+                    <div class="form-result">
+                        
+                    </div>
+                </section>
+            </section>
+
+        </section>
+    </section>
+    <hr color="black">
+    <footer>
+        <section class="footer-content">
+            <p><b>Created by : eRuL-NaS 2024</b></p>
+        </section>
+    </footer>
+    <hr color="black">
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
